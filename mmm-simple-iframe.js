@@ -10,8 +10,10 @@
 Module.register("mmm-simple-iframe",{
 		// Default module config.
 		defaults: {
-				height:"300px",
-				width:"100%"
+				height:"100%",
+				width:"1080px"
+			    divheight: "100%"
+				divwidth: "1080px"
 		},
 
 
