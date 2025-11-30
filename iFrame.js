@@ -17,12 +17,15 @@ Module.register("iFrame",{
 
 	// Override dom generator.
 	getDom: function() {
-		var iframe = document.createElement("IFRAME");
+        var div = document.createElement("div")
+        div.style = "height:" + this.config.divheight + ";overflow:hidden"
+		var iframe = document.createElement("iframe");
 		iframe.style = "border:0"
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
 		iframe.src =  this.config.url;
-		return iframe;
+        div.appendChild(iframe)
+		return div;
 	}
 
 });
