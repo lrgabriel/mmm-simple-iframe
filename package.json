@@ -1,10 +1,10 @@
 {
-  "name": "Magic-Mirror-iFrame",
+  "name": "mmm-simple-iframe",
   "version": "1.0.0",
-  "description": "iFrame module for Magic Mirror",
+  "description": "A simple iFrame module for Magic Mirror",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/desertblade/iFrame/"
+    "url": "git+https://github.com/lrgabriel/mmm-simple-iframe/"
   },
   "keywords": [
     "magic mirror",
@@ -13,7 +13,7 @@
   ],
   "author": "Ben Williams",
   "license": "MIT",
-  "homepage": "https://github.com/desertblade/iFrame#readme",
+  "homepage": "https://github.com/lrgabriel/mmm-simple-iframe/#readme",
   "dependencies": {
     "request": "latest",
     "express": "latest",
