@@ -19,6 +19,7 @@ Module.register("mmm-simple-iframe",{
 	getDom: function() {
         var div = document.createElement("div")
         div.style = "height:" + this.config.divheight + ";overflow:hidden"
+		div.style = "width:" + this.config.divwidth + ";overflow:hidden"
 		var iframe = document.createElement("iframe");
 		iframe.style = "border:0"
 		iframe.width = this.config.width;
