@@ -11,8 +11,8 @@ Module.register("mmm-simple-iframe",{
 		// Default module config.
 		defaults: {
 				height:"100%",
-				width:"1080px"
-			    divheight: "100%"
+				width:"1080px",
+			    divheight: "100%",
 				divwidth: "1080px"
 		},
 
